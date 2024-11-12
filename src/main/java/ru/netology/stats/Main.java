@@ -1,4 +1,4 @@
-package ru.netology.javaqa.cycles;
+package ru.netology.stats;
 
 public class Main {
     public static void main(String[] args) {
