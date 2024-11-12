@@ -16,7 +16,7 @@ class StatsServiceTest {
         long actual = service.calcSalesTotalRevenue(sales);
         long expected = (long) (60e9);
 
-        Assertions.assertEquals(actual , expected);
+        Assertions.assertEquals(actual, expected);
     }
 
     @Test
@@ -28,7 +28,7 @@ class StatsServiceTest {
         long actual = service.calcAverageMonthSale(sales);
         long expected = (long) (5e9);
 
-        Assertions.assertEquals(actual , expected);
+        Assertions.assertEquals(actual, expected);
     }
 
     @Test
@@ -40,7 +40,7 @@ class StatsServiceTest {
         int actual = service.getHighestSalesMonth(sales);
         int expected = 2;
 
-        Assertions.assertEquals(actual , expected);
+        Assertions.assertEquals(actual, expected);
     }
 
 
@@ -53,7 +53,7 @@ class StatsServiceTest {
         int actual = service.getLowestSalesMonth(sales);
         int expected = 2;
 
-        Assertions.assertEquals(actual , expected);
+        Assertions.assertEquals(actual, expected);
     }
 
     @Test
@@ -65,7 +65,7 @@ class StatsServiceTest {
         int actual = service.getMonthsBelowAverage(sales);
         int expected = 1;
 
-        Assertions.assertEquals(actual , expected);
+        Assertions.assertEquals(actual, expected);
     }
 
     @Test
